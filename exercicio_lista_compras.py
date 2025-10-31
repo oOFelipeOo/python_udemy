@@ -33,6 +33,7 @@ def show_list():
 
 
 while True:
+    os.system('clear')
     show_list()
     print('Selecione uma opção')
     enter = input("[i]nserir    [a]pagar    [s]air: ")
@@ -41,6 +42,7 @@ while True:
     elif enter == 'a' or enter == 'A':
         remove_item()  
     elif enter == 's' or enter == 'S':
+        os.system('clear')
         print('Saindo...')
         break  
     else:
